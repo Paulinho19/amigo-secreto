@@ -111,3 +111,13 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.637 0.237 25.331);
 }
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-foreground text-white;
+  }
+}
